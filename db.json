@@ -1,0 +1,52 @@
+{
+  "orders": [
+    {
+      "id": "1fee9db0-73a2-47c3-a9c2-8001988eb6ec",
+      "customer": "abdelrhman",
+      "size": "XL",
+      "packaging": "branded",
+      "embroidery": true,
+      "price": 70,
+      "date": "2025-06-26",
+      "createdAt": "2025-06-26T20:34:06.012Z"
+    },
+    {
+      "id": "9fb1694a-a61b-4186-8ff8-c26a4a84c6f5",
+      "customer": "abdelrhman",
+      "size": "XL",
+      "packaging": "branded",
+      "embroidery": true,
+      "price": 500,
+      "date": "2025-06-26",
+      "createdAt": "2025-06-26T20:56:38.562Z"
+    }
+  ],
+  "config": {
+    "basePrice": 450,
+    "packaging": {
+      "basic": 10,
+      "branded": 20,
+      "box": 30
+    },
+    "embroidery": 30
+  },
+  "settings": {
+    "businessName": "QotbScrub",
+    "currency": "ج.م",
+    "taxRate": 17,
+    "businessHours": {
+      "monday": "closed",
+      "tuesday": "closed",
+      "wednesday": "closed",
+      "thursday": "closed",
+      "friday": "closed",
+      "saturday": "closed",
+      "sunday": "closed"
+    },
+    "notifications": {
+      "emailEnabled": true,
+      "smsEnabled": false,
+      "orderStatusUpdates": true
+    }
+  }
+}
