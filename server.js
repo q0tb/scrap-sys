@@ -1,11 +1,18 @@
-const express = require('express');
-const cors = require('cors');
-const { Low } = require('lowdb');
-const { JSONFile } = require('lowdb/node');
-const { v4: uuidv4 } = require('uuid');
-const path = require('path');
-const fs = require('fs');
+// --- ES module-compatible imports ---
+import express from 'express';
+import cors from 'cors';
+import { Low } from 'lowdb';
+import { JSONFile } from 'lowdb/node';
+import { v4 as uuidv4 } from 'uuid';
+import path from 'path';
+import fs from 'fs';
+import { fileURLToPath } from 'url';
 
+// Support for __dirname in ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Begin your original code...
 const app = express();
 const PORT = process.env.PORT || 3000;
 
